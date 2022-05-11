@@ -11,23 +11,46 @@ body{
 --oswald : 'Oswald', sans-serif;
 --Montserrat: 'Montserrat', sans-serif;
 }
-
+.wrapper{
+    background-color: #3B4050;
+    }
 
 img{
     max-width: 100%;
 }
 .first{
-    display: none;
+    padding: 2rem 0;
 }
-.second{
-    display:none;
+
+.first_heading{
+   
+    font-family:var(--oswald);
+    font-size: 2rem;
+    color:#A59678;
 }
-.second_row p{
-    margin: 0;
+
+.first_content{
+  
+    color: white;
+    font-family:var(--Montserrat);
+    
 }
-.second_row h2{
-    margin:0;
+.first_button{
+    margin-top:1rem;
+    font-size: 24px;
+    border:none;
+    font-family: var(--oswald);
+    color: white;
+    background-color: #A59678;
+    border-radius: 900px;
+    padding:.5rem 2rem;
 }
+
+span{
+    color:white
+}
+
+
 
 .container{
     max-width: 1200px;
@@ -79,6 +102,43 @@ img{
 .third_right>div{
     margin-top: 1rem;
 }
+
+.second_row h2{
+    margin-bottom: 1rem;
+    color:#A59678;
+    font-family: var(--oswald);
+    font-size: 30px;
+}
+.second_row p{
+    font-size: 18px;
+    font-family: var(--Montserrat);
+}
+
+.bottom2{
+    padding:3rem 0;
+    margin-top: 2rem;
+}
+.top{
+    font-family: var(--oswald);
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+.bottom h2{
+   
+    font-family: var(--oswald);
+    color: #A59678;
+}
+
+.bottom p{
+    
+    font-family: var(--Montserrat);
+    color: white;
+}
+
+
+
+
 
 
 
@@ -155,7 +215,7 @@ margin-left: auto;
     
     display: flex;
     justify-content: space-between;
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 .second_row>div{
@@ -170,5 +230,76 @@ margin-left: auto;
 .second_row p{
     font-size: 18px;
     font-family: var(--Montserrat);
+}
+
+.third{
+    margin-top:2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_left{
+    width: 60%;
+}
+.third_right{
+    width: 30%;
+}
+
+.third_right h2{
+    margin-bottom: 1rem;
+}
+
+.third_left h1{
+    margin:0;
+    font-size: 36px;
+}
+
+.third_left p{
+    font-size: 21px;
+}
+.third_right>div:nth-child(1){
+    margin:0;
+}
+
+footer{
+    padding:4rem 2rem;
+}
+
+.bottom2{
+    display: block;
+}
+.bottom{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    font-family: var(--oswald);
+    color: white;
+    font-size: 42px;
+    text-align: center;
+}
+.bottom h2{
+    text-align: center;
+    font-family: var(--oswald);
+    color: #A59678;
+}
+
+.bottom p{
+    text-align: center;
+    font-family: var(--Montserrat);
+    color: white;
+}
+.bottom div:nth-child(1){
+width: 30%;
+}
+.bottom div:nth-child(2){
+    width:20%;
+}
+.bottom div:nth-child(3){
+    width: 20%;
+}
+.bottom div:nth-child(4){
+    width: 20%;
 }
 }
