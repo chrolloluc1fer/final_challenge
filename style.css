@@ -121,24 +121,41 @@ span{
 .top{
     font-family: var(--oswald);
     color: white;
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
 }
+.bottom{
+    display:flex;
+    justify-content: space-between;
+}
+
 .bottom h2{
-   
+    text-align: center;
+   font-size: 1rem;
     font-family: var(--oswald);
     color: #A59678;
 }
 
 .bottom p{
-    
+    text-align: center;
+    font-size: .8rem;
     font-family: var(--Montserrat);
     color: white;
 }
 
 
-
-
+.bottom div:nth-child(1){
+    width: 30%;
+    }
+    .bottom div:nth-child(2){
+        width:20%;
+    }
+    .bottom div:nth-child(3){
+        width: 20%;
+    }
+    .bottom div:nth-child(4){
+        width: 20%;
+    }
 
 
 
@@ -290,16 +307,5 @@ footer{
     font-family: var(--Montserrat);
     color: white;
 }
-.bottom div:nth-child(1){
-width: 30%;
-}
-.bottom div:nth-child(2){
-    width:20%;
-}
-.bottom div:nth-child(3){
-    width: 20%;
-}
-.bottom div:nth-child(4){
-    width: 20%;
-}
+
 }
